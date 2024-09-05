@@ -3,7 +3,6 @@ import { EXPERIENCES } from "../constants"
 const Work = () => {
   return (
     <section id="experience">
-        <h2 className="my-10 text-center text-3xl lg:text-8xl"> Work Experiences</h2>
         <div className="mx-auto max-w-6xl ">
             {EXPERIENCES.map((experience, id) =>(
 
@@ -17,7 +16,7 @@ const Work = () => {
                             {experience.year}
                         </p>
                     </div>
-                    <p className="font-sans text-gray-400">
+                    <p className="font-sans text-white">
                         {experience.description}
                     </p>
                 </div>

@@ -26,9 +26,9 @@ export const MARQUEE_TEXT =
 export const PROJECTS = [
   {
     id: 1,
-    title: "Car Workshop Management",
+    title: "Concrete Surface Crack Detection",
     description:
-      "A project that focus on mechanic to save record data",
+      "This project is function to detect the image of concrete surface by using Binary CNN Model",
     imgSrc: project1,
     link: "https://example.com/ecommerce-website",
   },
@@ -56,43 +56,6 @@ export const PROJECTS = [
     imgSrc: project4,
     link: "https://example.com/blog-platform",
   },
-  {
-    id: 5,
-    title: "Task Management Tool",
-    description: "A task management tool to organize and prioritize work.",
-    imgSrc: project5,
-    link: "https://example.com/task-management-tool",
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "An online learning platform offering various courses and resources.",
-    imgSrc: project6,
-    link: "https://example.com/online-learning-platform",
-  },
-  {
-    id: 7,
-    title: "Fitness Tracker",
-    description: "A mobile application to track fitness activities and goals.",
-    imgSrc: project7,
-    link: "https://example.com/fitness-tracker",
-  },
-  {
-    id: 8,
-    title: "Recipe App",
-    description: "An app for browsing and saving various cooking recipes.",
-    imgSrc: project8,
-    link: "https://example.com/recipe-app",
-  },
-  {
-    id: 9,
-    title: "Weather Dashboard",
-    description:
-      "A weather dashboard providing current weather data and forecasts.",
-    imgSrc: project9,
-    link: "https://example.com/weather-dashboard",
-  },
 ];
 
 export const ABOUT =
@@ -117,17 +80,17 @@ export const EXPERIENCES = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://github.com/",
-    icon: <FaGithub fontSize={26} className="hover:opacity-80" />,
+    href: "https://github.com/zflrr",
+    icon: <FaGithub fontSize={26} className="hover:opacity-80" style={{color:"black" }}/>,
   },
   {
-    href: "https://www.linkedin.com/",
-    icon: <FaLinkedin fontSize={26} className="hover:opacity-80" />,
+    href: "https://www.linkedin.com/in/zafrihaikalsabri/",
+    icon: <FaLinkedin fontSize={26} className="hover:opacity-80" style={{color:"black" }}/>,
   },
 ];
 
 export const CONTACT = {
   text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, Id love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out to discuss how we can work together to achieve your goals.",
   email: "zafrihaikalsbr@gmail.ocm",
-  phone: "+(60)-11 3961 8396",
+  phone: "",
 };

@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+      backgroundImage: {
+        'unsplash': "url('src/assets/Unsplash.webp')",
+      }
+      
+    },
   },
   plugins: [],
 }
