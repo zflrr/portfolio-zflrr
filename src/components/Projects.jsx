@@ -6,7 +6,6 @@ import ProjectCard from '../components/ProjectCard';
 const Projects = () => {
   return (
     <div className="container mx-auto p-4">
-      
       <div className="flex flex-wrap justify-center">
         {PROJECTS.map((project) => (
           <ProjectCard

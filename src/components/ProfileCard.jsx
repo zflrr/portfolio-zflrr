@@ -5,7 +5,7 @@ import { SOCIAL_MEDIA_LINKS } from '../constants';
 
 const ProfileCard = () => {
   return (
-    <div className="bg-white shadow-md rounded-3xl p-6 mt-10 h-full backdrop-filter backdrop-blur-sm bg-opacity-20">
+    <div className="bg-white shadow-lg rounded-3xl p-6 mt-10 ml-10 h-full backdrop-filter backdrop-blur-sm bg-opacity-20">
       <img
         src= {zaf}
         alt="Profile"
@@ -21,7 +21,7 @@ const ProfileCard = () => {
                     </a>
                 ))}
         </p>
-        
+
       <div className="mt-6">
      
         <ul className="space-y-4">

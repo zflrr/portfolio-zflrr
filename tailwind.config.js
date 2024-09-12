@@ -7,9 +7,6 @@ export default {
   theme: {
     extend: {
 
-      backgroundImage: {
-        'unsplash': "url('src/assets/Unsplash.webp')",
-      }
       
     },
   },

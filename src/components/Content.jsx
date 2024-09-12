@@ -8,7 +8,7 @@ const Content = () => {
   return (
     <div className="w-full p-4 mt-10">
 
-      <section id="about" className="mb-12">
+      <section id="about" className="mb-12 ">
         <h1 className="text-5xl font-bold mb-4 text-center">About Me</h1>
         <About/>
       </section>

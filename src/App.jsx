@@ -11,7 +11,7 @@ import Content from './components/Content';
 
 const App = () => {
   return (
-    <main className="font-light text-white antialiased selection:bg-yellow-300 selection:text-black bg-gradient-to-b from-purple-950 to-yellow-500">
+    <main className="font-light text-white antialiased selection:bg-yellow-300 selection:text-black ">
       <div className="min-h-screen flex flex-col">
         {/* Main Content Area */}
         <div className="flex flex-col md:flex-row flex-1">
